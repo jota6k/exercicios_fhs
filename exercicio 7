@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+float peso, novo_peso15, novo_peso20;
+
+printf("digite o peso da pessoa: ");
+scanf("%f", &peso);
+
+novo_peso15 = peso + (peso * 0.15);
+novo_peso20 = peso + (peso * 0.20);
+
+printf("Novo peso se a pessoa engordar 15 por cento: %.2f\n", novo_peso15);
+printf("Novo peso se a pessoa engordar 20 por cento: %.2f\n", novo_peso20);
+
+return 0;
+}
