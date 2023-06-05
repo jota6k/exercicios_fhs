@@ -5,16 +5,16 @@ int main()
 int num1, num2;
 float resultado;
 
-printf("DIVISÃO ENTRE DOIS NUMEROS");
+printf("DIVISAO ENTRE DOIS NUMEROS \n\n");
 printf("digite o primeiro numero: ");
 scanf("%d",&num1);
 
 printf("digite o segundo numero: ");
 scanf("%d",&num2);
 
-resultado: (float)num1/num2;
+resultado = (float)num1/num2;
 
-printf("a divisao entre &d e &d é %.2f\n"), num1, num2, resultado;
+printf("a divisao entre %d e %d é %.2f\n", num1, num2, resultado);
 
 return 0;
 }
